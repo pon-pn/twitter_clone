@@ -1,0 +1,58 @@
+.post {
+  display: flex;
+  align-items: start;
+  border-bottom: 1px solid var(--twitter--background);
+  padding: 20px;
+}
+
+.post--body  {
+  flex: 1;
+}
+
+.post--body > img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.post--footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post--headerDesctiption {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.post--headerText {
+  margin-bottom: 20px;
+}
+
+.post--headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.post--headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.post--badge {
+  font-size: 14px;
+  color: var(--twitter--color);
+}
+
+.post--avatar {
+  padding-right: 20px;
+}
+
+.post--headerDescription {
+  margin-bottom: 20px;
+}
